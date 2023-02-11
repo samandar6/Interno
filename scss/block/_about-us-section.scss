@@ -1,0 +1,91 @@
+.about-us-section {
+    margin-top: 200px;
+
+    &-block {
+        &-flexbox{
+            display: flex;
+            align-items: center;
+            gap: 0 75px;
+
+            &-textBox {
+                display: flex;
+                flex-direction: column;
+                gap: 35px 0;
+                width: 472px;
+
+                &__title {
+                    font-family: 'DM Serif Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 125%;
+                    letter-spacing: 0.02em;
+                    color: #292F36;
+                }
+
+                &__text {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 150%;
+                    letter-spacing: 0.01em;
+                    color: #4D5053;
+                }
+
+                &-box {
+                    display: flex;
+                    align-items: center;
+                    gap: 0 15px;
+
+                    &-numberBox {
+                        &__title {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 150%;
+                            letter-spacing: 0.01em;
+                            color: #4D5053;
+                        }
+
+                        &__text {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 150%;
+                            letter-spacing: 0.01em;
+                            color: #4D5053;
+                        }
+                    }
+                }
+
+                &__btn {
+                    padding: 26px 31px;
+                    background: #292F36;
+                    width: 238.14px;
+                    height: 75px;
+                    border-radius: 18px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 125%;
+                    color: #FFFFFF;
+                }
+            }
+
+            &-imgBox {
+                &__img {
+                    background: #C4C4C4;
+                    border-bottom-left-radius: 123px;
+                    border-top-right-radius: 326.5px;
+                }
+            }
+        }
+    }
+}

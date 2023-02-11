@@ -1,0 +1,43 @@
+.about-section {
+    margin-top: 45px;
+    background-image: url(/img/Photo\ \(1\).png);
+    width: 1920px;
+    height: 356px;
+
+    &-block {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 178px;
+
+        &-box {
+            width: 503px;
+            height: 178px;
+            background: #FFFFFF;
+            border-radius: 37px 37px 0px 0px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &__title {
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 125%;
+                color: #292F36;
+            }
+
+            &__text {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                color: #4D5053;
+            }
+        }
+    }
+}

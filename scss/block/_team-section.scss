@@ -1,0 +1,33 @@
+.team-section {
+    margin-top: 170px;
+    height: 968px;
+    background: #F4F0EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px 0;
+
+        &__title {
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 125%;
+            color: #292F36;
+            width: 547px;
+            text-align: center;
+        }
+
+        &-flexbox {
+            display: flex;
+            align-items: center;
+            gap: 0 22px;
+        }
+    }
+}

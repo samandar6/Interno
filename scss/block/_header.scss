@@ -1,0 +1,33 @@
+.header {
+    &-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 13px;
+
+        &-flexbox {
+            display: flex;
+            align-items: center;
+            gap: 0 399px;
+            justify-content: center;
+
+            &-nav {
+                &-ul {
+                    gap: 0 31px;
+
+                    &-li {
+                        padding-top: 20px;
+                        &__link {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 125%;
+                            color: #292F36;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

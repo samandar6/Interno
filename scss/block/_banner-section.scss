@@ -1,0 +1,53 @@
+.banner-section {
+    background-image: url(/img/Image\ \(56\).png);
+    width: 1920px;
+    height: 1042px;
+    margin-top: 25px;
+    border-bottom-left-radius: 55px;
+    display: flex;
+    align-items: center;
+
+    &-block {
+        &-textBox {
+            display: flex;
+            flex-direction: column;
+
+            &__title {
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 85px;
+                line-height: 125%;
+                color: #292F36;
+                width: 567px;
+            }
+
+            &__text {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                color: #4D5053;
+                width: 553px;
+            }
+
+            &__btn {
+                width: 219.14px;
+                height: 75px;
+                background: #292F36;
+                box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+                border-radius: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 125%;
+                color: white;
+            }
+        }
+    }
+}

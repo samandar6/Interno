@@ -1,0 +1,58 @@
+.projects-section {
+    margin-top: 150px;
+
+    &-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 93px 0;
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            gap: 8px 0;
+            align-items: center;
+
+            &__title {
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 125%;
+                letter-spacing: 0.02em;
+                color: #292F36;
+            }
+
+            &__text {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                color: #4D5053;
+                width: 737px;
+                text-align: center;
+            }
+        }
+
+        &-flexbox {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 56px 105px;
+
+            &-innerBox {
+                width: 489px;
+                height: 548px;
+                display: flex;
+                flex-direction: column;
+                gap: 24px 0;
+
+                &-box {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}

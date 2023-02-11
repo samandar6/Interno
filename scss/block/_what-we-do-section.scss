@@ -1,0 +1,109 @@
+.what-we-do-section {
+    margin-top: 200px;
+
+    &-block {
+        &-flexbox {
+            display: flex;
+            flex-direction: column;
+            gap: 200px 0;
+
+            &-patternBox {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &-textBox {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px 0;
+
+                    &__title {
+                        font-family: 'DM Serif Display';
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 85px;
+                        line-height: 125%;
+                        color: #292F36;
+                    }
+
+                    &__secondTitle {
+                        font-family: 'DM Serif Display';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 35px;
+                        line-height: 125%;
+                        color: #292F36;
+                        text-align: center;
+                        width: 751px;
+                    }
+
+                    &__text {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 150%;
+                        color: #4D5053;
+                    }
+                }
+            }
+
+            &-whatDoBox {
+                display: flex;
+                flex-direction: column;
+                gap: 150px 0;
+
+                &-innerBox {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    gap: 0 45px;
+                    align-items: center;
+                    justify-content: center;
+
+                    &-textBox {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 30px 0;
+
+                        &__title {
+                            font-family: 'DM Serif Display';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 50px;
+                            line-height: 125%;
+                            color: #292F36;
+                        }
+
+                        &__text {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 150%;
+                            color: #4D5053;
+                        }
+
+                        &__btn {
+                            width: 220.14px;
+                            height: 75px;
+                            background: #292F36;
+                            box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+                            border-radius: 18px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 125%;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

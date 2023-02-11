@@ -1,0 +1,82 @@
+.footer {
+    margin-top: 135px;
+
+    &-block {
+        display: flex;
+        flex-direction: column;
+        gap: 174px 0;
+
+        &-flexbox {
+            display: flex;
+            gap: 0 101px;
+
+            &-logoBox {
+                display: flex;
+                flex-direction: column;
+                gap: 23px 0;
+
+                &__text {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 150%;
+                    color: #4D5053;
+                    width: 393px;
+                }
+
+                &-spanBox {
+                    display: flex;
+                    align-items: center;
+                    gap: 0 54px;
+                }
+            }
+
+            &-nav {
+                display: flex;
+                flex-direction: column;
+                gap: 19px 0;
+                width: 508px;
+
+                &__title {
+                    font-family: 'DM Serif Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 125%;
+                    color: #292F36;
+                }
+
+                &-ul {
+                    flex-direction: column;
+                    gap: 35px 0;
+                    padding: 0;
+
+                    &-li {
+                        &__link {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 150%;
+                            color: #4D5053;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-copyright {
+            text-align: center;
+
+            &__text {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 150%;
+                color: #4D5053;
+            }
+        }
+    }
+}

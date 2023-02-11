@@ -1,0 +1,10 @@
+.brands-section {
+    margin-top: 150px;
+
+    &-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 108px;
+    }
+}
