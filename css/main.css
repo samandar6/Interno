@@ -4,14 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 body .container {
-  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 body ul {
   display: flex;
@@ -24,16 +19,12 @@ body a {
 }
 
 .header-block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-top: 13px;
 }
 .header-block-flexbox {
   display: flex;
   align-items: center;
-  gap: 0 399px;
-  justify-content: center;
+  justify-content: space-between;
 }
 .header-block-flexbox-nav-ul {
   gap: 0 31px;
@@ -52,12 +43,13 @@ body a {
 
 .banner-section {
   background-image: url(/img/Image\ \(56\).png);
-  width: 1920px;
+  max-width: 1920px;
   height: 1042px;
   margin-top: 25px;
   border-bottom-left-radius: 55px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 .banner-section-block-textBox {
   display: flex;
@@ -70,7 +62,7 @@ body a {
   font-size: 85px;
   line-height: 125%;
   color: #292F36;
-  width: 567px;
+  max-width: 567px;
 }
 .banner-section-block-textBox__text {
   font-family: "Jost";
@@ -79,7 +71,7 @@ body a {
   font-size: 22px;
   line-height: 150%;
   color: #4D5053;
-  width: 553px;
+  max-width: 553px;
 }
 .banner-section-block-textBox__btn {
   width: 219.14px;
@@ -592,8 +584,9 @@ body a {
 .about-section {
   margin-top: 45px;
   background-image: url(/img/Photo\ \(1\).png);
-  width: 1920px;
+  max-width: 1920px;
   height: 356px;
+  margin: 0 auto;
 }
 .about-section-block {
   display: flex;
@@ -802,4 +795,17 @@ body a {
 .form-section-block-form .message {
   width: 795px;
   height: 175px;
+}
+.form-section-block__btn {
+  padding: 26px 54px;
+  background: #292F36;
+  box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+  border-radius: 18px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

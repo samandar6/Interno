@@ -1,15 +1,11 @@
 .header {
     &-block {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         padding-top: 13px;
 
         &-flexbox {
             display: flex;
             align-items: center;
-            gap: 0 399px;
-            justify-content: center;
+            justify-content: space-between;
 
             &-nav {
                 &-ul {

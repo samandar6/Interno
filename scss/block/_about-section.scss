@@ -1,8 +1,9 @@
 .about-section {
     margin-top: 45px;
     background-image: url(/img/Photo\ \(1\).png);
-    width: 1920px;
+    max-width: 1920px;
     height: 356px;
+    margin: 0 auto;
 
     &-block {
         display: flex;

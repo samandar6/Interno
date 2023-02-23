@@ -48,5 +48,19 @@
                 height: 175px;
             }
         }
+
+        &__btn {
+            padding: 26px 54px;
+            background: #292F36;
+            box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+            border-radius: 18px;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 125%;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
     }
 }

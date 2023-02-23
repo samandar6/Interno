@@ -1,11 +1,12 @@
 .banner-section {
     background-image: url(/img/Image\ \(56\).png);
-    width: 1920px;
+    max-width: 1920px;
     height: 1042px;
     margin-top: 25px;
     border-bottom-left-radius: 55px;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 
     &-block {
         &-textBox {
@@ -19,7 +20,7 @@
                 font-size: 85px;
                 line-height: 125%;
                 color: #292F36;
-                width: 567px;
+                max-width: 567px;
             }
 
             &__text {
@@ -29,7 +30,7 @@
                 font-size: 22px;
                 line-height: 150%;
                 color: #4D5053;
-                width: 553px;
+                max-width: 553px;
             }
 
             &__btn {
